@@ -17,10 +17,11 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
-    testImplementation 'org.seleniumhq.selenium:selenium-java:4.29.0'
-    testImplementation 'io.github.bonigarcia:webdrivermanager:5.9.3'
-    testImplementation 'org.seleniumhq.selenium:selenium-support:4.29.0'  // ← ДОБАВИТЬ
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.0'
+    testImplementation 'org.seleniumhq.selenium:selenium-java:4.25.0'
+    testImplementation 'io.github.bonigarcia:webdrivermanager:5.9.2'
+    testImplementation 'org.assertj:assertj-core:3.26.3'
+    testImplementation 'org.slf4j:slf4j-nop:2.0.13'
 }
 
 test {
